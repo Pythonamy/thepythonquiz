@@ -25,6 +25,7 @@ cd thepythonquiz
 ```
 
 #### **Option 2: Download as a ZIP**
+```sh
 1. Go to [GitHub Repository](https://github.com/Pythonamy/thepythonquiz).
 2. Click **"Code" → "Download ZIP"**.
 3. Extract the ZIP file to your preferred location.
