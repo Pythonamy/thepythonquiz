@@ -1,0 +1,90 @@
+"id","question","answer","category"
+1,How were the first programs stored?,Punch cards,Python
+2,A ____ translates high-level code fully into machine code before execution.,compiler,Python
+3,An ______translates and executes code line by line.,interpreter,Python
+4,A ______(compiler/interpreter) produces an executable file.,compiler,Python
+5,Is Python compiled or interpreted?,interpreted,Python
+6,Is JavaScript a compiled or interpreted language?,interpreted,Python
+7,Is C++ a compiled or interpreted language?,compiled,Python
+8,Which is faster: compiled or interpreted?,compiled,Python
+9,Which is easier to develop: compiled or interpreted?,interpreted,Python
+10,What does IDE mean?,integrated development environment,Python
+11,What does REPL stand for?,Read Evaluate Print Loop,Python
+14,Is it allowed to start a variable name with an underscore in Python?,yes,Python
+15,Is it allowed to start a variable name with a letter in Python?,yes,Python
+16,Is it allowed to start a variable name with a number in Python?,nein,Python
+17,Are spaces allowed in variable names in Python?,no,Python
+18,Can you use Python keywords as variable names?,no,Python
+19,"What data type is used for ""text"" in Python?",String,Python
+20,How do you define a string in Python?,quotes,Python
+21,What encoding do Python strings use by default?,Unicode,Python
+22,"How do you include both "" and ' inside a string? ",\,Python
+23,Which special character creates a new line in Python?,\n,Python
+24,Which special character adds a tab space in Python?,\t,Python
+25,What operator concatenates two strings?,+,Python
+26,What method makes a string uppercase?,upper(),Python
+27,What is the recommended way to format strings in Python 3.6+?,f-strings,Python
+28,"What does 'len(""hello"")' return?","5",Python
+29,What is the first index position in Python? (0 or 1),"0",Python
+30,"What is the output of 'a[::-1]'? (a=""banana"")",ananab,Python
+31,What data type represents whole numbers in Python?,int,Python
+32,What data type represents decimal numbers in Python?,float,Python
+33,What operator gives the remainder of division? ,%,Python
+34,What operator raises a number to a power?,**,Python
+35,What does '5 // 2' return?,"2",Python
+36,What does '5 / 2' return?,"2.5",Python
+37,"What does 'int(""123"")' return?","123",Python
+38,"What does 'float(""2.5"")'return?","2.5",Python
+39,"What does 'float(""a"")' return?",error,Python
+40,What are the two Boolean values?,"True, False",Python
+41,What does 'not True' return?,False,Python
+42,What does 'True and False' return?,False,Python
+43,What does 'True or False' return?,True,Python
+44,What operator checks if two values are equal?,==,Python
+45,What does '2 * 3 == 6' return?,True,Python
+46,What does '2 * 3 != 6' return?,False,Python
+47,What does 'not (2 * 3 == 5)' return?,True,Python
+48,What function checks the type of a value?,type(),Python
+49,What does 'type(3.5)' return?,float,Python
+50,What does 'type(True)' return? ,bool,Python
+51,What does 'type(None)' return? ,NoneType,Python
+52,What symbol is used for comments in Python? ,#,Python
+53,What is the official name of the '#' symbol?,Octothorpe,Python
+54,How do you create a multi-line comment?,tripple quote,Python
+55,How do you define a list?,Square brackets [ ],Python
+56,Can a list contain different data types?,yes,Python
+57,What is the index of the first element in a list?,"0",Python
+58,What index retrieves the last element of a list?,-1,Python
+59,How do you retrieve a sublist from index 1 to 3?,list[1:4],Python
+60,How do you change the first element of a list?,list[0] = value,Python
+61,What method adds an item to the end of a list?,append(),Python
+62,What method inserts an item at a specific index?,insert(),Python
+63,What method removes an element by value?,remove(),""
+64,What method removes an element by value?,remove(),Python
+65,What method removes all elements from a list?,clear(),Python
+66,What method returns the number of occurrences of a value?,count(),Python
+67,What method returns the index of a value?,index(),Python
+68,What method removes and returns the last element?,pop(),Python
+69,What method sorts a list in place? ,sort(),Python
+70,What method reverses a list in place?,reverse(),Python
+71,What function returns the number of elements in an iterable?,len(),Python
+72,"hat does '""Python""[1]' return?",y,Python
+73,What symbol must follow an if condition?,:,Python
+74,How do you properly indent an if block? (the most common option),tab,Python
+75,What boolean value does 'bool(None)' return?,False,Python
+76,What boolean value does 'bool(0)' return?,False,Python
+77,"What boolean value does 'bool("""")' return? ",False,Python
+78,What boolean value does 'bool([])' return,False,Python
+79,What boolean value does 'bool(1)' return?,True,Python
+80,What boolean value does 'bool([0])' return?,True,Python
+81,"What boolean value does 'bool(""0"")' return?",True,Python
+82,"Which Python values are considered ""truthy""?",non-empty values,Python
+83,"Which of these values are considered ""falsy"" in python: None, 0, 0.0, '', [], {}",All of them,Python
+84,What operator checks if two conditions are both true?,and,Python
+85,What operator checks if at least one condition is true?,or,Python
+86,How do you check if a list is not empty?,if list,Python
+87,How do you check if a string is empty?,if not string,Python
+88,How do you check if a variable is None?,if variable is None,Python
+89,How do you check if a variable is NOT None?,if variable is not None,Python
+90,What does 'if foo:' check for?,If foo is truthy,Python
+91,What does 'if not foo:' check for?,If foo is falsy,Python
