@@ -1,4 +1,4 @@
-# Python Quiz Application
+# Python Quiz Application 
 
 This is a Flask-based quiz application that allows users to test their knowledge with predefined questions. The project uses SQLite for data storage and Bootstrap for styling.
 
@@ -13,11 +13,22 @@ This is a Flask-based quiz application that allows users to test their knowledge
 
 ## Installation
 
-### 1. Clone the Repository
+### 1. Download the Project
+
+You can get the project in two ways:
+
+#### **Option 1: Clone with Git**
 
 ```sh
-git clone <[repository_url](https://github.com/Pythonamy/thepythonquiz.git)>
-cd <repository_folder>
+git clone https://github.com/Pythonamy/thepythonquiz.git
+cd thepythonquiz
+```
+
+#### **Option 2: Download as a ZIP**
+1. Go to [GitHub Repository](https://github.com/Pythonamy/thepythonquiz).
+2. Click **"Code" → "Download ZIP"**.
+3. Extract the ZIP file to your preferred location.
+4. Open the project folder in your IDE (e.g., VS Code, PyCharm).
 ```
 
 ### 2. Install Dependencies
@@ -90,5 +101,7 @@ python export_questions.py
 ## License
 
 This project is open-source and can be modified or distributed as needed.
+
+
 
 
