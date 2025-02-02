@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Add Question</title>
+
+    <!-- Load Bootstrap for styling -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body class="container mt-5">
+
+    <!-- Page Heading -->
+    <h1 class="text-center">Add a New Question</h1>
+
+    <!-- Form container using Bootstrap's card -->
+    <div class="card p-4 mt-4">
+        <form method="POST">
+            <!-- Input field for the question -->
+            <div class="mb-3">
+                <label class="form-label">Question:</label>
+                <input type="text" name="question" class="form-control" required>
+            </div>
+
+            <!-- Input field for the answer -->
+            <div class="mb-3">
+                <label class="form-label">Answer:</label>
+                <input type="text" name="answer" class="form-control" required>
+            </div>
+
+            <!-- Optional input field for the category -->
+            <div class="mb-3">
+                <label class="form-label">Category (optional):</label>
+                <input type="text" name="category" class="form-control">
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-success">Add Question</button>
+        </form>
+    </div>
+
+    <!-- Back to Home button -->
+    <div class="text-center mt-4">
+        <a href="{{ url_for('home') }}" class="btn btn-secondary">Back to Home</a>
+    </div>
+
+    <!-- Load Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
