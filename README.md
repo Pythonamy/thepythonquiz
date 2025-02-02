@@ -91,14 +91,6 @@ Then open `http://127.0.0.1:5000/` in your browser.
 
 1. Click **"View Analytics"** to see statistics on total attempts, correct answers, and overall success rate.
 
-### Exporting Questions
-
-To export the current set of questions to a CSV file:
-
-```sh
-python export_questions.py
-```
-
 ## License
 
 This project is open-source and can be modified or distributed as needed.
