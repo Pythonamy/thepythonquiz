@@ -16,7 +16,7 @@ This is a Flask-based quiz application that allows users to test their knowledge
 ### 1. Clone the Repository
 
 ```sh
-git clone <repository_url>
+git clone <[repository_url](https://github.com/Pythonamy/thepythonquiz.git)>
 cd <repository_folder>
 ```
 
